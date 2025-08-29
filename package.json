@@ -1,0 +1,20 @@
+{
+  "name": "bfhl-api",
+  "version": "1.0.0",
+  "description": "BFHL REST API for processing arrays",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["api", "rest", "bfhl"],
+  "author": "Shreya Suresh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
